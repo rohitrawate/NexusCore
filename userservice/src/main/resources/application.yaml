@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: userservice
+  datasource:
+    url: jdbc:postgresql://localhost:5432/user_service_db
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+  # Table not created  #Check ddl-auto: update
+    show-sql: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 8081
