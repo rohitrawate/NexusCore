@@ -1,4 +1,4 @@
-package com.nexuscore.recharge_service.service;
+package com.nexuscore.recharge_service.repository;
 
 
 import com.nexuscore.recharge_service.entity.Recharge;

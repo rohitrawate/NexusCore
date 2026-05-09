@@ -1,4 +1,4 @@
-package com.nexuscore.recharge_service.client;
+package com.nexuscore.recharge_service.exception;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
