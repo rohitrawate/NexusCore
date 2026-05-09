@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: recharge-service
+    name: Recharge-Service
   datasource:
     url: jdbc:postgresql://localhost:5432/recharge_service_db
     username: admin
